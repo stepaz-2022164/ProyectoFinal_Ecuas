@@ -1,0 +1,106 @@
+{
+  "python": "3.11.9",
+  "sistema": "Windows",
+  "arquitectura": "AMD64",
+  "cpu": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel",
+  "openssl": "OpenSSL 3.0.13 30 Jan 2024",
+  "reloj": {
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-07
+  },
+  "total_mib": 512,
+  "paso_mib": 16,
+  "sha256": "c047731a3c134f3d34286d608e9c173027d50f43ab9d2064f3c360939977e908",
+  "resumen": [
+    {
+      "corrida": 1,
+      "fase": "calibracion",
+      "segundos": 1.3365067,
+      "velocidad": 383.0882404106167
+    },
+    {
+      "corrida": 2,
+      "fase": "calibracion",
+      "segundos": 1.2785926,
+      "velocidad": 400.4402966198928
+    },
+    {
+      "corrida": 3,
+      "fase": "calibracion",
+      "segundos": 1.1303553,
+      "velocidad": 452.954924880699
+    },
+    {
+      "corrida": 4,
+      "fase": "validacion",
+      "segundos": 1.1271117,
+      "velocidad": 454.2584377395781
+    },
+    {
+      "corrida": 5,
+      "fase": "validacion",
+      "segundos": 1.1586411,
+      "velocidad": 441.8969774160436
+    },
+    {
+      "corrida": 6,
+      "fase": "validacion",
+      "segundos": 1.1592779,
+      "velocidad": 441.65424010929564
+    },
+    {
+      "corrida": 7,
+      "fase": "validacion",
+      "segundos": 1.1237721,
+      "velocidad": 455.6083924845616
+    },
+    {
+      "corrida": 8,
+      "fase": "validacion",
+      "segundos": 1.1227138,
+      "velocidad": 456.037861118301
+    }
+  ],
+  "v": 412.16115397040284,
+  "tiempo_estimado": 1.242232546827464,
+  "sd_calibracion": 36.378184018498835,
+  "metricas": [
+    {
+      "corrida": 4,
+      "rmse": 27.903074984287144,
+      "mae": 24.59712751890598,
+      "r2": 0.9643245237546394,
+      "error_t": 10.213792193574431
+    },
+    {
+      "corrida": 5,
+      "rmse": 20.410386747127824,
+      "mae": 18.13492620200958,
+      "r2": 0.9809116620616142,
+      "error_t": 7.214610877126997
+    },
+    {
+      "corrida": 6,
+      "rmse": 22.501334898157705,
+      "mae": 19.521754460856737,
+      "r2": 0.9768003082753368,
+      "error_t": 7.155717091429415
+    },
+    {
+      "corrida": 7,
+      "rmse": 26.93460661972228,
+      "mae": 23.34442165157521,
+      "r2": 0.966758017148131,
+      "error_t": 10.541322998449944
+    },
+    {
+      "corrida": 8,
+      "rmse": 30.782566589108576,
+      "mae": 27.553304451621653,
+      "r2": 0.9565814513465495,
+      "error_t": 10.645522200534444
+    }
+  ]
+}
